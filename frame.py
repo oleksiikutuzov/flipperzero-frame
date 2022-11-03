@@ -2,10 +2,10 @@ from PIL import Image
 import sys
 
 # Open screen background
-img1 = Image.open(r"background.png")
+img1 = Image.open(r"images/background.png")
 
 # Open screen frame
-img2 = Image.open(r"frame.png")
+img2 = Image.open(r"images/frame.png")
 
 # Open screenshot itself
 img3 = Image.open(sys.argv[1])

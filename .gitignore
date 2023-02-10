@@ -130,3 +130,4 @@ dmypy.json
 
 framed_*.png
 .DS_Store
+.vscode/
